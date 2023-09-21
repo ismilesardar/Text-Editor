@@ -48,3 +48,13 @@ function f7(e) {
     textarea.style.textAlign = "right"
 }
 
+function f8(e) {
+    if (textarea.style.textTransform == "uppercase") {
+        textarea.style.textTransform = "none"
+        e.classList.remove("active")
+    }
+    else {
+        textarea.style.textTransform = "uppercase"
+        e.classList.add("active")
+    }
+}
