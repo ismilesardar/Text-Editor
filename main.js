@@ -16,3 +16,13 @@ function f2(e) {
     }
 }
 
+function f3(e) {
+    if (textarea.style.fontStyle == "italic") {
+        textarea.style.fontStyle = "normal"
+        e.classList.remove("active")
+    }
+    else {
+        textarea.style.fontStyle = "italic"
+        e.classList.add("active")
+    }
+}
