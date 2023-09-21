@@ -58,3 +58,17 @@ function f8(e) {
         e.classList.add("active")
     }
 }
+
+function f9() {
+    textarea.style.fontWeight = "normal"
+    textarea.style.textAlign = "left"
+    textarea.style.fontStyle = "normal"
+    textarea.style.textTransform = "capitalize"
+    textarea.style.textDecoration = "none"
+    textarea.value = ""
+}
+
+function f10(e) {
+    let value = e.value;
+    textarea.style.color = value;
+}
