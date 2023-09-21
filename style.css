@@ -15,7 +15,7 @@ body{
 .section{
     height: 500px;
     width: 700px;
-    background: #fff;
+    /* background: #fff; */
     border-radius: 10px;
 }
 .col{
@@ -60,11 +60,27 @@ button{
 button:hover{
     background: #40576d1a;
 }
-button:focus{
+button.active{
     background: #73b1e333;
     color: #5271ff;
 }
 
 .third{
     border-right: 2px solid #40576d33;
+}
+
+.fourth{}
+
+input[type=color]{
+    width: 40px;
+    border: none;
+    background: none;
+}
+textarea{
+    width: 100%;
+    min-height: 250px;
+    padding: 10px;
+    border: none;
+    resize: vertical;
+    outline: none;
 }
