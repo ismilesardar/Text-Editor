@@ -5,3 +5,14 @@ function f1(e) {
     textarea.style.fontSize = value + "px"
 }
 
+function f2(e) {
+    if (textarea.style.fontWeight == "bold") {
+        textarea.style.fontWeight = "normal"
+        e.classList.remove("active")
+    }
+    else {
+        textarea.style.fontWeight = "bold"
+        e.classList.add("active")
+    }
+}
+
