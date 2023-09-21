@@ -64,3 +64,7 @@ button:focus{
     background: #73b1e333;
     color: #5271ff;
 }
+
+.third{
+    border-right: 2px solid #40576d33;
+}
